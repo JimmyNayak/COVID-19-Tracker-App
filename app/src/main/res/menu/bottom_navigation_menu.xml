@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/fg_global_summary"
+        android:enabled="true"
+        android:icon="@drawable/world"
+        android:title="@string/menu_global"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fg_country"
+        android:enabled="true"
+        android:icon="@drawable/flags"
+        android:title="@string/menu_country"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/fg_profile"
+        android:enabled="true"
+        android:icon="@drawable/profile"
+        android:title="@string/menu_profile"
+        app:showAsAction="always" />
+
+</menu>

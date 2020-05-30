@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/covid_tracker_nav_graph"
+    app:startDestination="@id/fg_global_summary">
+
+    <fragment
+        android:id="@+id/fg_global_summary"
+        android:name="com.covidtracker.fragments.GlobalSummaryFragment"
+        android:label="fragment_global_summary"
+        tools:layout="@layout/fragment_global_summary" />
+
+    <fragment
+        android:id="@+id/fg_country"
+        android:name="com.covidtracker.fragments.CountrySummaryFragment"
+        android:label="fragment_country_summary"
+        tools:layout="@layout/fragment_country_summary" />
+
+    <fragment
+        android:id="@+id/fg_profile"
+        android:name="com.covidtracker.fragments.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+</navigation>

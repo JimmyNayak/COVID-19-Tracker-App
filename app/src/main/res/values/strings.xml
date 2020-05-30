@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">COVID Tracker</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="action_login">Login</string>
+    <string name="title_user_info">User Details</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="msg_user_info">Hi! please provide your information to get the COVID-19 data for you.</string>
+    <string name="hint_select_your_country">Select your country</string>
+    <string name="action_start">Start</string>
+
+    <string name="title_covid_19">COVID-19</string>
+    <string name="title_virus_tracker">Virus Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_global">Global</string>
+    <string name="menu_country">Country</string>
+    <string name="menu_profile">Profile</string>
+    <string name="action_update">Update</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_global_states">Global State</string>
+    <string name="title_country_state">Country State</string>
+    <string name="hint_country">Country</string>
+    <string name="title_confirmed">Confirmed</string>
+    <string name="title_recovered">Recovered</string>
+    <string name="title_deaths">Deaths</string>
+</resources>
